@@ -1,16 +1,21 @@
 ﻿using System;
 
-namespace Sum
+namespace MyName
 {
     class Program
     {
-        static void Main(string[] )
+        static void Main(string[] args)
         {
-            int num1 = 2;
-            int num2 = 4;
-            int sum = num1 + num2;
-            Console.WriteLine("sum");
+
+            Console.ForegroundColor=ConsoleColor.Blue; 
+            String MyName = "onoja";
+            String Message = "My name is " + MyName;
+            String CapsMessage = Message.ToUpper();
+            Console.WriteLine(MyName);
+            Console.WriteLine(Message);
+            Console.WriteLine(CapsMessage);
             Console.Read();
+
         }
     }
 }
